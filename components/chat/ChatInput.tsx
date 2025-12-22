@@ -11,7 +11,7 @@ export default function ChatInput({ onSend }: { onSend: (msg: string) => void })
     onSend("🧑: " + text);
 
     try {
-      const res = await fetch("http://localhost:4000/chat", {
+      const res = await fetch("https://kenmark-chatbot-1n4g.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: text }),
