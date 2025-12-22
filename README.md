@@ -100,7 +100,7 @@ The chatbot answers only from structured knowledge stored in MongoDB.
 
 ### 🔗 Frontend (Vercel)
 **Live Demo URL:**  
-https://<your-vercel-project>.vercel.app
+https://kenmark-chatbot-chi.vercel.app/
 
 markdown
 Copy code
