@@ -33,7 +33,7 @@ export default function ChatInput({ onSend }: { onSend: (msg: string) => void })
         value={text}
         onChange={(e) => setText(e.target.value)}
         placeholder="Ask something..."
-        className="flex-1 border rounded p-2 text-sm outline-none"
+        className="flex-1 border text-black rounded p-2 text-sm outline-none"
       />
 
       <button
